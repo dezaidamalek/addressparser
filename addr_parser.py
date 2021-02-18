@@ -122,7 +122,6 @@ def parse(text):
 
 # func to main program
 def mainprog():
-    print("Please capitalize each word for better result.")
     text = input("Enter the address to parse: ")
     print("Parsing may take a while :)")
     parse(text)
