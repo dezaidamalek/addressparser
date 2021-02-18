@@ -84,7 +84,6 @@ def parse(text):
             for s in range(len(addr_chunks)):
                 if type_of_street[r].lower() in addr_chunks[s].lower():
                     street_exist = addr_chunks[s]
-                    street_exist = street_exist
 
     print('Street: ' + street_exist)
 
